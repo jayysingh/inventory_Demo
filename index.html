@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">VEG SHOP</h1>
+    <div id = "veg shop">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Ex-potato">
+    <br><br>
+    <label for="price">price:</label>
+     <input type="number" id="price" placeholder="0" min="1">
+    <br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id ="quantity"placeholder="0" min="1">
+    <br><br>
+    <Button onclick="add()">ADD TO SHOP</Button>
+
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
+ -->
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Shop Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Vegetable Shop Inventory</h2>
+
+     Product input form
+<div>
+    <input type="text" id="name" placeholder="Product Name">
+    <input type="number" id="quantity" placeholder="Quantity">
+    <input type="number" id="price" placeholder="Price">
+    <button onclick="addProduct()">Add Product</button>
+</div>
+
+<h3>Total Products in Inventory: <span id="totalProducts">0</span></h3>
+
+
+<div id="inventoryContainer" class="inventory-container">
+
+    <div class="inventory-header">
+        <div>Product Name</div>
+        <div>Quantity</div>
+        <div>Price</div>
+        <div>Sell Quantity</div>
+        <div>Actions</div>
+    </div>
+</div> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
