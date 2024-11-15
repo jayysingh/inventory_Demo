@@ -19,3 +19,6 @@
 
 <p>Displays the total number of items added to the inventory.
 </p>
+<br><br><hr>
+Author --Jay singh
+
